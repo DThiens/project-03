@@ -190,7 +190,6 @@ a {
 }
 
 .hero .title {
-  margin-bottom: 18px;
   color: #767e7e;
   font-size: 1.4rem;
   font-weight: 400;
@@ -358,7 +357,7 @@ a {
 
 .hero .avatar-group {
   display: flex;
-  margin-top: 8px;
+  padding-top: 8px;
 }
 
 .hero .avatar {
