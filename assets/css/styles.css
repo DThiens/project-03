@@ -44,7 +44,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: normal;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
 
 .btn:hover {
@@ -223,7 +223,7 @@ a {
   width: 62px;
   height: 62px;
   border-radius: 50%;
-  transition: ease .4s;
+  transition: ease 0.4s;
 }
 
 .hero .play-btn:hover {
@@ -496,6 +496,7 @@ a {
 .popular .list .item:hover img {
   opacity: 1;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  transition: ease-in 0.4s;
 }
 
 .popular .item .thumb,
@@ -526,10 +527,6 @@ a {
   border-radius: 8px;
   background: #fff;
 }
-
-/* .popular .item .body:hover {
-  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
-} */
 
 .popular .body .title a {
   color: #0d1111;
