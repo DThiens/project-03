@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 03</title>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css">
 
@@ -21,38 +41,38 @@
 
 </head>
 
-<body style="height: 6000px;">
+<body>
     <!-- Header -->
     <header class="header fixed">
         <div class="main-content">
             <div class="body">
                 <!-- Logo -->
-                <a href="#!"><img src="./assets/icons/logo.svg" alt="Besnik." class="logo"></a>
+                <a href="#"><img src="./assets/icons/logo.svg" alt="Besnik." class="logo"></a>
 
-                <!-- Nav bar -->
+                <!-- Navigation -->
                 <div class="nav">
-                    <ul>
+                    <ul class="navbar">
                         <li class="active">
-                            <a href="#!">Home</a>
+                            <a href="#" title="Home">Home</a>
                         </li>
                         <li>
-                            <a href="#!">Features</a>
+                            <a href="#features" title="Features">Features</a>
                         </li>
                         <li>
-                            <a href="#!">Pricing</a>
+                            <a href="#price" title="Pricing">Pricing</a>
                         </li>
                         <li>
-                            <a href="#!">About</a>
+                            <a href="#about" title="About">About</a>
                         </li>
                         <li>
-                            <a href="#!">Contact</a>
+                            <a href="#contact" title="Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
 
                 <!-- Action -->
                 <div class="action">
-                    <a href="#!" class="action-link">Sign in</a>
+                    <a href="#!" class="action-link" title="Sign in">Sign in</a>
                     <a href="#!" class="btn action-btn">Sign up</a>
                 </div>
             </div>
@@ -123,7 +143,7 @@
         </div>
 
         <!-- Features -->
-        <div class="features">
+        <div id="features" class="features">
             <div class="main-content">
                 <div class="body">
                     <div class="info">
@@ -160,7 +180,7 @@
         </div>
 
         <!-- Popular -->
-        <div class="popular">
+        <div id="price" class="popular">
             <div class="main-content">
                 <div class="popular-top">
                     <p class="label">C O U R S E S</p>
@@ -247,7 +267,7 @@
         </div>
 
         <!-- Feedback -->
-        <div class="feedback">
+        <div id="about" class="feedback">
             <div class="main-content">
                 <div class="content">
                     <img src="./assets/icons/open-quote.svg" alt="" class="open-quote">
@@ -273,15 +293,122 @@
                 </div>
                 <div class="avatar-group">
 
-                    <img src="./assets/img/avatar-1.jpg" alt="" class="avatar avatar-type-1">
-                    <img src="./assets/img/avatar-2.jpg" alt="" class="avatar avatar-type-2">
-                    <img src="./assets/img/avatar-3.jpg" alt="" class="avatar avatar-type-3">
-                    <img src="./assets/img/avatar-4.jpg" alt="" class="avatar avatar-type-4 img-1">
-                    <img src="./assets/img/avatar-5.jpg" alt="" class="avatar avatar-type-4 img-2">
-                    <img src="./assets/img/avatar-6.jpg" alt="" class="avatar avatar-type-4 img-3">
+                    <img src="./assets/img/avatar-1.jpg" alt="" class="avatar center">
+                    <img src="./assets/img/avatar-2.jpg" alt="" class="avatar top-right">
+                    <img src="./assets/img/avatar-3.jpg" alt="" class="avatar top-left">
+                    <img src="./assets/img/avatar-4.jpg" alt="" class="avatar block-img middle-left">
+                    <img src="./assets/img/avatar-5.jpg" alt="" class="avatar block-img bottom-left">
+                    <img src="./assets/img/avatar-6.jpg" alt="" class="avatar block-img bottom-right">
                 </div>
             </div>
         </div>
+
+        <!-- Subscription -->
+        <div id="contact" class="subscription">
+            <div class="main-content">
+                <div class="body">
+                    <h2 class="heading lv2">Ready to Get Admit</h2>
+                    <p class="desc">Create your account and Boost your Career.</p>
+                </div>
+                <a class="btn">Get Started</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="main-content">
+                <div class="row">
+
+                    <!-- Column 1 -->
+                    <div class="column">
+                        <img src="./assets/icons/logo.svg" alt="logo" class="logo">
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="column">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">About</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Careers</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Press</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Column 3 -->
+                    <div class="column">
+                        <h3 class="title">Community</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Team Plans</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Blog</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Students</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Schoolarships</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="column">
+                        <h3 class="title">Teaching</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Become a teacher</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Teaching academy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 5 -->
+                    <div class="column">
+                        <h3 class="title">Be social</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">
+                                    <img src="./assets/icons/twitter.svg" alt="" class="icon">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">
+                                    <img src="./assets/icons/facebook.svg" alt="" class="icon">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">
+                                    <img src="./assets/icons/instagram.svg" alt="" class="icon">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">
+                                    <img src="./assets/icons/linkedin.svg" alt="" class="icon">
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© Copyright 2020 by Mayad Ahmed. All right reserved.</p>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 
