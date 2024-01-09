@@ -378,7 +378,7 @@ a {
 /* Features */
 
 .features {
-  margin: 130px 0;
+  margin-top: 130px;
   padding-top: 79px;
 }
 
@@ -444,6 +444,10 @@ a {
 }
 
 /* Popular */
+.popular {
+  margin-top: 51px;
+  padding-top: 79px;
+}
 .popular .label {
   margin-bottom: 18px;
   color: #767e7e;
@@ -579,7 +583,7 @@ a {
 
 /* Stats */
 .stats {
-  margin: 265px auto;
+  margin: 265px auto 186px;
   width: 862px;
   max-width: calc(100% - 24px);
 }
@@ -598,6 +602,9 @@ a {
 }
 
 /* Feedback */
+.feedback {
+  padding-top: 79px;
+}
 
 .feedback .main-content {
   display: flex;
@@ -660,16 +667,21 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
   width: 50px;
   height: 50px;
   border: none;
   background: var(--primary-color);
   border-radius: 50%;
   cursor: pointer;
+  transition: ease-in-out 0.4s;
 }
 
 .feedback .content .control-btn:hover {
   opacity: 0.9;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background: transparent;
 }
 
 .feedback .avatar-group {
